@@ -72,6 +72,20 @@
 //     );
 // }
 
+async function fetchData(url) {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching data:', error);
+        throw error;
+    }
+}
 
 // export default GreatQuotes;
 
@@ -79,7 +93,7 @@ import { useState, useEffect } from 'react';
 const StarWarsPeople = () => {
     const [people, setPeople] = useState([]);
     useEffect(() => {
-        fetch('https://swapi.dev/api/people')
+        fetch('https://swapi.dev/api/people/')
             .then((res) => {
                 return res.json();
             })
@@ -90,11 +104,29 @@ const StarWarsPeople = () => {
     }, []);
     return (
         <div>
+            <h1>Scroll trough Star Wars characters:</h1>
 
-            {people.map((people) => (
-                <img key={people.id} src={people.url} alt={people.title} width={100} />
-            ))}
+            {/* 
+            {people.map((person) => (
+                <div key={person.name} />
+            ))} */}
         </div>
     );
 };
+// export default StarWarsPeople;
+
+//     return (
+//         <div>
+//             {people.map((person) => (
+//                 <div key={person.name}>
+//                     <h2>{person.name}</h2>
+//                     <p>Birth Year: {person.birth_year}</p>
+//                     <p>Gender: {person.gender}</p>
+//                     {/* Lägg till fler egenskaper som du vill visa */}
+//                 </div>
+//             ))}
+//         </div>
+//     );
+// };
+
 export default StarWarsPeople;
