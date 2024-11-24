@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+body{
+  background-color: #0e0d0d;
+}
+.grid-container{
+background-color: 0e0d0d;
+display: inline-grid;
+grid-template-columns: auto auto auto auto;
+}
+.header{
+  color: greenyellow;
+  font-family: fantasy;
+  font-size: x-large;
+}
+.grid-item{
+  color: rgb(61, 134, 51);
+  font-family: monospace;
+}
+
