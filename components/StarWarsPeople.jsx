@@ -27,7 +27,7 @@ const StarWarsPeople = () => {
     return (
         <>
 
-            <div className="container_person">
+            <div className="container-person">
                 <div className="grid-container">
                     {people.map((person, index) => (
                         <div className="grid-item" key={`${person.name}-${index}`}>
@@ -36,6 +36,7 @@ const StarWarsPeople = () => {
                     ))}
                 </div>
             </div>
+
         </>
     );
 };
