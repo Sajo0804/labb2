@@ -45,20 +45,6 @@
 body {
   background-color: #0e0d0d;
 }
-/* .grid-container {
-  background-color: 0d0d;
-  display: inline-grid;
-  grid-template-columns: auto auto auto auto;
-} */
-.header {
-  /* color: greenyellow;
-  font-family: fantasy;
-  font-size: x-large; */
-}
-.grid-item {
-  /* color: rgb(61, 134, 51);
-  font-family: monospace; */
-}
 
 .header {
   background-color: #0e0d0d;
@@ -80,48 +66,18 @@ nav a {
 }
 
 .form {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .form {
-  margin-top: 50px;
+  /* margin-top: 50px;
   display: grid;
   display: inline-block;
-  width: 100px;
+  width: 100px; */
 }
 
 .formData {
-  color: rgb(46, 218, 60);
-  font-weight: 500;
+  /* color: rgb(46, 218, 60);
+  font-weight: 500; */
+  flex-direction:;
 }
-/*StarWarsCallbacks*/
-/* .star-wars-button {
-  background-color: #000000;
-  border: none;
-  padding: 15px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-} */
-
-/* .star-wars-button span {
-  color: #ffffff;
-  font-weight: bold;
-/* } */
-
-/* .button-border {
-  width: 100%;
-  height: 2px;
-  background-color: #ff0000;
-  margin-top: 8px;
-}
-
-.star-wars-button:active {
-  transform: translateY(2px);
-  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.2);
-} */ */
-display

@@ -19,9 +19,20 @@ const ContactForm = () => {
     };
 
     return (
-        <form className="form" onSubmit={handleSubmit}>
-            <div className="formData">
-                <label htmlFor="name">Ditt namn:</label>
+        <form className={css` margin-top: 50px;
+//   display: grid;
+//   display: inline-block;
+display:flex;
+flex-direction:column;
+padding:50px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+width:100%;`} onSubmit={handleSubmit}>
+            <div className={css` color: rgb(46, 218, 60);
+  font-weight: 500;
+  margin:10px 10px 30px 0px;`} >
+                <label className={css`margin:10px 10px 30px 0px;`} htmlFor="name">Ditt namn:</label>
                 <input
                     type="text"
                     id="name"
@@ -32,8 +43,9 @@ const ContactForm = () => {
                 />
             </div>
 
-            <div className="formData">               
-                <label htmlFor="phone">Ditt telefonnummer:</label>
+            <div className={css` color: rgb(46, 218, 60);
+  font-weight: 500;   margin:10px 10px 30px 0px;`}>               
+                <label className={css`margin:10px 10px 30px 0px;`} htmlFor="phone">Ditt telefonnummer:</label>
                 <input
                     type="tel"
                     id="phone"
@@ -44,8 +56,9 @@ const ContactForm = () => {
                 />
             </div>
 
-            <div className="formData">                
-                <label htmlFor="message">Ditt meddelande:</label>
+            <div className={css` color: rgb(46, 218, 60);
+  font-weight: 500;   margin:10px 10px 30px 0px;`}>                
+                <label className={css`margin:10px 10px 30px 0px;`} htmlFor="message">Ditt meddelande:</label>
                 <textarea
                     id="message"
                     value={message}
@@ -55,7 +68,8 @@ const ContactForm = () => {
                 ></textarea>
             </div>
 
-            <button type="submit">Skicka</button>
+            <button className={css`background-color:green;
+        color: White;`} type="submit">Skicka</button>
         </form>
     );
 };
