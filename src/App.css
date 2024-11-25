@@ -59,3 +59,44 @@ grid-template-columns: auto auto auto auto;
   font-family: monospace;
 }
 
+
+
+.header {
+  background-color: #0e0d0d;
+  padding: 20px;
+}
+
+.logo {
+  /* width: 100px; */
+}
+
+nav ul {
+  list-style-type:none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: rgb(76, 167, 62);
+}
+
+.form{
+  display: inline-block;
+}
+
+.form{
+  margin-top: 50px;
+  display: grid;
+  display: inline-block;
+  width: 100px;
+  
+}
+
+.formData{
+  color:rgb(46, 218, 60);
+  font-weight: 500;
+}
