@@ -20,6 +20,7 @@ function CountVisits() {
     <div>
       <h2 className={css`
         color: #156468;
+        font-family:fantasy;
       `
     }>Denna sida har haft {visits} antal besök</h2>
     </div>
