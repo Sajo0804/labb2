@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { css } from '@emotion/css'
 
 const StarWarsPeople = () => {
     const [people, setPeople] = useState([]);

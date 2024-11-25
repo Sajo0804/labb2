@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { css } from '@emotion/css'
 
 function CountVisits() {
   const [visits, setVisits] = useState(0);
@@ -17,7 +18,10 @@ function CountVisits() {
 
   return (
     <div>
-      <h2>Denna sida har haft {visits} antal besök</h2>
+      <h2 className={css`
+        color: #156468;
+      `
+    }>Denna sida har haft {visits} antal besök</h2>
     </div>
   );
 }
