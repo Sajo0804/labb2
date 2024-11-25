@@ -28,10 +28,14 @@ const StarWarsPeople = () => {
     return (
         <>
 
-            <div className="container-person">
+            <div className={css`.grid-container {
+  background-color: 0d0d;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto`}>
                 <div className="grid-container">
                     {people.map((person, index) => (
-                        <div className="grid-item" key={`${person.name}-${index}`}>
+                        <div className={css`color: rgb(61, 134, 51);
+                        font-family: monospace;`} key={`${person.name}-${index}`}>
                             {person.name}
                         </div>
                     ))}

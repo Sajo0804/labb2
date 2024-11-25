@@ -45,19 +45,19 @@
 body {
   background-color: #0e0d0d;
 }
-.grid-container {
+/* .grid-container {
   background-color: 0d0d;
   display: inline-grid;
   grid-template-columns: auto auto auto auto;
-}
+} */
 .header {
-  color: greenyellow;
+  /* color: greenyellow;
   font-family: fantasy;
-  font-size: x-large;
+  font-size: x-large; */
 }
 .grid-item {
-  color: rgb(61, 134, 51);
-  font-family: monospace;
+  /* color: rgb(61, 134, 51);
+  font-family: monospace; */
 }
 
 .header {
