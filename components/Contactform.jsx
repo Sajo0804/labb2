@@ -1,4 +1,3 @@
-// import React from "react";
 
 import React, { useState } from 'react';
 
@@ -9,10 +8,10 @@ const ContactForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Här skulle du vanligtvis skicka data till en server eller hantera submittningen
+        // Normalt skulle jag skicka data till en server här
         console.log('Form submitted:', { name, phone, message });
 
-        // Resetta formuläret efter submittning
+        // Detta gör en reset efter submit
         setName('');
         setPhone('');
         setMessage('');
@@ -32,7 +31,8 @@ const ContactForm = () => {
                 />
             </div>
 
-            <div className="formData">                <label htmlFor="phone">Ditt telefonnummer:</label>
+            <div className="formData">               
+                <label htmlFor="phone">Ditt telefonnummer:</label>
                 <input
                     type="tel"
                     id="phone"
@@ -43,7 +43,8 @@ const ContactForm = () => {
                 />
             </div>
 
-            <div className="formData">                <label htmlFor="message">Ditt meddelande:</label>
+            <div className="formData">                
+                <label htmlFor="message">Ditt meddelande:</label>
                 <textarea
                     id="message"
                     value={message}
