@@ -95,7 +95,7 @@ nav a {
   font-weight: 500;
 }
 /*StarWarsCallbacks*/
-.star-wars-button {
+/* .star-wars-button {
   background-color: #000000;
   border: none;
   padding: 15px 40px;
@@ -106,14 +106,14 @@ nav a {
   margin: 4px 2px;
   cursor: pointer;
   transition: all 0.3s ease;
-}
+} */
 
-.star-wars-button span {
+/* .star-wars-button span {
   color: #ffffff;
   font-weight: bold;
-}
+/* } */
 
-.button-border {
+/* .button-border {
   width: 100%;
   height: 2px;
   background-color: #ff0000;
@@ -123,4 +123,5 @@ nav a {
 .star-wars-button:active {
   transform: translateY(2px);
   box-shadow: 0 5px 15px rgba(255, 0, 0, 0.2);
-}
+} */ */
+display
