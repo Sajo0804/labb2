@@ -13,7 +13,7 @@
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #6bea11aa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -63,21 +63,4 @@ nav li {
 
 nav a {
   color: rgb(76, 167, 62);
-}
-
-.form {
-  /* display: inline-block; */
-}
-
-.form {
-  /* margin-top: 50px;
-  display: grid;
-  display: inline-block;
-  width: 100px; */
-}
-
-.formData {
-  /* color: rgb(46, 218, 60);
-  font-weight: 500; */
-  flex-direction:;
 }

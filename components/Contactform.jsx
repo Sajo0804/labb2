@@ -28,7 +28,7 @@ padding:50px;
    display: flex;
   align-items: center;
   justify-content: center;
-width:100%;`} onSubmit={handleSubmit}>
+`} onSubmit={handleSubmit}>
             <div className={css` color: rgb(46, 218, 60);
   font-weight: 500;
   margin:10px 10px 30px 0px;`} >
